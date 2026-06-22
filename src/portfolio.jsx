@@ -64,7 +64,7 @@ export default function Portfolio() {
                     </h1>
 
                     <p className="text-base sm:text-lg text-slate-400 mb-8 leading-relaxed">
-                        Results-driven Full-Stack Developer bridging UI architectures with automated data workflows and optimized database performance[cite: 4, 5].
+                        Results-driven Full-Stack Developer bridging UI architectures with automated data workflows and optimized database performance.
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4">
@@ -142,15 +142,15 @@ export default function Portfolio() {
                             <ul className="space-y-2 text-sm text-slate-300">
                                 <li className="flex items-start gap-2">
                                     <span className="text-cyan-400 font-bold">▸</span>
-                                    <span>Analyzed and validated large AI/ML datasets, ensuring high data accuracy for model training and validation[cite: 13].</span>
+                                    <span>Analyzed and validated large AI/ML datasets, ensuring high data accuracy for model training and validation.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-cyan-400 font-bold">▸</span>
-                                    <span>Engineered automated Python scripts utilizing OpenCV to pre-process datasets, accelerating QA workflows[cite: 14].</span>
+                                    <span>Engineered automated Python scripts utilizing OpenCV to pre-process datasets, accelerating QA workflows.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-cyan-400 font-bold">▸</span>
-                                    <span>Performed pattern analysis using SQL/Python, creating BigQuery and Power BI dashboards[cite: 15].</span>
+                                    <span>Performed pattern analysis using SQL/Python, creating BigQuery and Power BI dashboards.</span>
                                 </li>
                             </ul>
                         </div>
@@ -163,11 +163,11 @@ export default function Portfolio() {
                             <ul className="space-y-2 text-sm text-slate-300">
                                 <li className="flex items-start gap-2">
                                     <span className="text-slate-600 font-bold">▸</span>
-                                    <span>Architected and maintained 4+ scalable full-stack web applications using React.js, Node.js, Express.js, and MySQL[cite: 18].</span>
+                                    <span>Architected and maintained 4+ scalable full-stack web applications leveraging React.js, FastAPI, and MySQL, ensuring clean separation of concerns and robust data validation.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-slate-600 font-bold">▸</span>
-                                    <span>Implemented and optimized RESTful APIs, noticeably reducing data retrieval latency[cite: 19].</span>
+                                    <span>Designed and optimized Python-based RESTful APIs, utilizing asynchronous processing to noticeably reduce data retrieval latency and improve throughput.</span>
                                 </li>
                             </ul>
                         </div>
@@ -198,7 +198,7 @@ export default function Portfolio() {
                                 </div>
                                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">IoT-Based Smart Monitoring System</h3>
                                 <p className="text-xs text-slate-400 leading-relaxed mb-6">
-                                    Developed a real-time data monitoring system utilizing a high-performance FastAPI backend to process incoming sensor data streams[cite: 21, 22]. Integrated Python scripts for live tracking of physical parameters[cite: 23].
+                                    Developed a real-time data monitoring system utilizing a high-performance FastAPI backend to process incoming sensor data streams. Integrated Python scripts for live tracking of physical parameters.
                                 </p>
                             </div>
                             <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-400">
@@ -220,7 +220,7 @@ export default function Portfolio() {
                                 </div>
                                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">Music Player Web Application</h3>
                                 <p className="text-xs text-slate-400 leading-relaxed mb-6">
-                                    Built a full-stack music streaming platform using React.js, Node.js, Express.js, and MongoDB[cite: 27, 28]. Integrated Google Drive cloud storage for scalable file management[cite: 29].
+                                    Built a full-stack music streaming platform using React.js, Node.js, Express.js, and MongoDB. Integrated Google Drive cloud storage for scalable file management.
                                 </p>
                             </div>
                             <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-400">
@@ -234,7 +234,7 @@ export default function Portfolio() {
                                 <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 mb-2 inline-block">SECURE AUTH</span>
                                 <h3 className="text-lg font-bold text-white mb-1 group-hover:text-emerald-400 transition-colors">Micro Credit Web Application</h3>
                                 <p className="text-xs text-slate-400 leading-relaxed">
-                                    Designed a responsive web application for managing user authentication and transactions[cite: 24, 25]. Implemented secure REST APIs, JWT authentication, and robust input validation[cite: 26].
+                                    Designed a responsive web application for managing user authentication and transactions. Implemented secure REST APIs, JWT authentication, and robust input validation.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:items-end gap-2 shrink-0 w-full sm:w-auto font-mono text-xs">
