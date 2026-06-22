@@ -15,7 +15,7 @@ export default function Portfolio() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-cyan-500 selection:text-slate-950">
+        <main className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-cyan-500 selection:text-slate-950">
 
             {/* Subtle background glow */}
             <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
@@ -193,7 +193,7 @@ export default function Portfolio() {
                                         <a href="https://github.com/vish-vishnu" target="_blank" rel="noreferrer" aria-label="View IoT Smart Monitoring project source code on GitHub" className="hover:text-white">
                                             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
                                         </a>
-                                        <a href="#" aria-label="View live demo of IoT Smart Monitoring System" className="hover:text-cyan-400"><ExternalLink className="w-4 h-4" /></a>
+                                        <a href="#" aria-label="Open live demo of IoT Smart Monitoring System" className="hover:text-cyan-400"><ExternalLink className="w-4 h-4" /></a>
                                     </div>
                                 </div>
                                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">IoT-Based Smart Monitoring System</h3>
@@ -201,7 +201,7 @@ export default function Portfolio() {
                                     Developed a real-time data monitoring system utilizing a high-performance FastAPI backend to process incoming sensor data streams[cite: 21, 22]. Integrated Python scripts for live tracking of physical parameters[cite: 23].
                                 </p>
                             </div>
-                            <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-500">
+                            <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-400">
                                 <span>FastAPI</span> • <span>Python</span> • <span>Sensor Ingestion</span>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ export default function Portfolio() {
                                         <a href="https://github.com/vish-vishnu" target="_blank" rel="noreferrer" aria-label="View Music Player project source code on GitHub" className="hover:text-white">
                                             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
                                         </a>
-                                        <a href="#" aria-label="View live demo of Cloud Music Streaming App" className="hover:text-purple-400"><ExternalLink className="w-4 h-4" /></a>
+                                        <a href="#" aria-label="Open live demo of Cloud Music Streaming App" className="hover:text-purple-400"><ExternalLink className="w-4 h-4" /></a>
                                     </div>
                                 </div>
                                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">Music Player Web Application</h3>
@@ -223,7 +223,7 @@ export default function Portfolio() {
                                     Built a full-stack music streaming platform using React.js, Node.js, Express.js, and MongoDB[cite: 27, 28]. Integrated Google Drive cloud storage for scalable file management[cite: 29].
                                 </p>
                             </div>
-                            <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-500">
+                            <div className="flex flex-wrap gap-1.5 text-[11px] font-mono text-slate-400">
                                 <span>React</span> • <span>Node.js</span> • <span>MongoDB</span> • <span>Google Drive API</span>
                             </div>
                         </div>
@@ -263,6 +263,6 @@ export default function Portfolio() {
                 </footer>
 
             </div>
-        </div>
+        </main>
     );
 }
